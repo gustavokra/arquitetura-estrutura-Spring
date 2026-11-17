@@ -4,6 +4,7 @@ import com.kraemer.arquiteturaspring.montadora.Motor;
 import com.kraemer.arquiteturaspring.montadora.TipoMotor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 @Configuration
 public class MontadoraConfiguration {
@@ -30,8 +31,9 @@ public class MontadoraConfiguration {
         return motor;
     }
 
-    @Bean(name = "motortURBO")
-    public Motor motortURBO() {
+    @Bean(name = "motorTurbo")
+    @Primary
+    public Motor motorTurbo() {
         var motor = new Motor();
         motor.setCavalos(180);
         motor.setCilintros(4);
