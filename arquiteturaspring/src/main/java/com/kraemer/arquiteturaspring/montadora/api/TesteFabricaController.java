@@ -1,8 +1,10 @@
 package com.kraemer.arquiteturaspring.montadora.api;
 
-import com.kraemer.arquiteturaspring.montadora.*;
+import com.kraemer.arquiteturaspring.montadora.CarroStatus;
+import com.kraemer.arquiteturaspring.montadora.Chave;
+import com.kraemer.arquiteturaspring.montadora.HondaHRV;
+import com.kraemer.arquiteturaspring.montadora.Motor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
