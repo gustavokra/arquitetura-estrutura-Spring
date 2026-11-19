@@ -17,7 +17,7 @@ public class Application {
 		builder.profiles("producao", "homologacao");
 		builder.bannerMode(Banner.Mode.OFF);
 		builder.run(args);
-
+//		builder.lazyInitialization(true);
 		//contexto da aplicação já iniciada
 		ConfigurableApplicationContext applicationContext = builder.context();
 //		var produtoRepository = applicationContext.getBean("produtoRepository");
