@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.WebApplicationContext;
 
-@Lazy
+//@Lazy
 @Component
 @Scope(BeanDefinition.SCOPE_SINGLETON)
 //@Scope(WebApplicationContext.SCOPE_APPLICATION)
